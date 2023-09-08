@@ -18,3 +18,85 @@ i3 = Item(
 	image_url="https://images.unsplash.com/photo-1608889175250-c3b0c1667d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80"
 	)
 
+
+
+
+
+
+
+
+
+
+i2 = Item(
+	name="R2D2 & C3PO",
+	price="650",
+	description="The Galactic Duo: R2-D2 and C-3PO Limited Edition Figurine Set is more than just a collector's item; it's a tangible connection to a galaxy far, far away. Immerse yourself in the magic of Star Wars with these timeless treasures. Don't miss your chance to own this exclusive set and be part of the epic Star Wars legacy. May the Force be with you!.",
+	image_url="https://images.unsplash.com/photo-1608889462247-ce07fe5a2756?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80"
+	)
+
+
+i4 = Item(
+	name="BATMAN",
+	price="880",
+	description="Each action figure features 11 points of articulation, a cloth cape and detailed comic styling that brings your favourite BATMAN heroes and villains to life! Team up with BATMAN and help rid GOTHAM CITY of its most sinister villains and criminals.",
+	image_url="https://images.unsplash.com/photo-1531259683007-016a7b628fc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+	)
+
+i5 = Item(
+	name="Optimus Prime",
+	price="790",
+	description="Prepare to embark on an exhilarating journey into the world of Transformers with our meticulously crafted Optimus Prime Premium Collectible Figurine. This extraordinary masterpiece pays homage to the iconic Autobot leader, Optimus Prime, and is a must-have for Transformers enthusiasts and collectors alike.",
+	image_url="https://images.unsplash.com/photo-1658233427329-9d72b824e144?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+	)
+
+
+i6 = Item(
+	name="Kakashi Hatake",
+	price="540",
+	description=" The Legendary Shinobi Masterpiece Collectible Figurine is more than just a collector's item; it's a tribute to a character who has inspired Naruto fans worldwide. Immerse yourself in the world of ninjutsu with this exceptional work of art. Don't miss your opportunity to own this exclusive collectible and honor the legacy of Kakashi Hatake. Unleash your inner shinobi today!",
+	image_url="https://images.unsplash.com/photo-1630710478039-9c680b99f800?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+	)
+
+i7 = Item(
+	name="Majin Buu",
+	price="540",
+	description="The Majin Buu: The Malevolent Force Deluxe Collectible Figurine is not just a collector's item; it's a tribute to a villain who has left an indelible mark on Dragon Ball lore. Immerse yourself in the power and darkness of the Dragon Ball universe with this exceptional work of art. Don't miss your chance to own this exclusive collectible and experience the chaos of Majin Buu. Embrace the darkness today!",
+	image_url="https://images.unsplash.com/photo-1606894436761-7a742916220a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+	)
+
+
+i8 = Item(
+	name="Tanjiro",
+	price="980",
+	description="The Tanjiro Kamado: The Demon Slayer Masterpiece Collectible Figurine is not just a collector's item; it's a tribute to a character who has captured the hearts of Demon Slayer fans worldwide. Immerse yourself in the world of demon slaying with this exceptional work of art. Don't miss your opportunity to own this exclusive collectible and join Tanjiro on his relentless quest for justice. Emerge from the shadows today!",
+	image_url="https://images.goodsmile.info/cgm/images/product/20201215/10567/78805/large/85e0129a54c4baf75aba24a2acc5cad3.jpg"
+	)
+
+i9 = Item(
+	name="Levi Ackerman",
+	price="1500",
+	description="The Levi Ackerman: The Elite Scout Masterpiece Collectible Figurine is not just a collector's item; it's a tribute to a character who has inspired Attack on Titan fans worldwide. Immerse yourself in the world of Titans and humanity's struggle with this exceptional work of art. Don't miss your opportunity to own this exclusive collectible and stand alongside Levi Ackerman in the fight for survival. Elevate your collection today!",
+	image_url="https://images.goodsmile.info/cgm/images/product/20131218/4164/27452/large/b6c51767ed8c6f1f53ee318c2a7109aa.jpg"
+	)
+
+
+i10 = Item(
+	name="Ahsoka Tano",
+	price="1700",
+	description="A Gentle Giant Ltd. release! Watch out, Thrawn! Ahsoka Tano is here, and shes the next 1/7 scale statue in the Star Wars Premier Collection! Based on her appearance in The Mandalorian Season 2, Ahsoka stands with her dual lightsabers at the ready in this approximately 10-inch sculpture. Limited to only 3,000 pieces, this edition comes packaged with a numbered certificate of authenticity in a full-color box. Designed by Brian Rood and sculpted by the talented team of artisans at Gentle Giant Ltd.!",
+	image_url="https://cdn11.bigcommerce.com/s-2zs1uo/images/stencil/728x728/products/1167/10922/Mando_AhsokaPremier_Premier_01__53391.1636496348.jpg?c=2"
+	)
+
+i11 = Item(
+	name="Dr Strange",
+	price="1700",
+	description="Prepare to enter the Multiverse! Doctor Stephen Strange steps through a mystical portal in this all-new Gallery Diorama, inspired by the next entry in the Marvel Cinematic Universe! With orange energy whirling around him, cape flapping in the wind, the Sorcerer Supreme stands approximately 10 inches tall and features detailed sculpting and paint applications. It comes packaged in a full-color window box. Sculpted by Gentle Giant Studios!",
+	image_url="https://cdn11.bigcommerce.com/s-csqcv5l47s/images/stencil/1280x1280/products/2007/4390/DoctorStrange2_Gallery_2-min__26357.1668730253.jpg?c=1?imbypass=on"
+	)
+
+i12 = Item(
+	name="Iron Man",
+	price="2000",
+	description="He is Iron Man! Based on his appearance in Avengers: Infinity Wars, this ½ scale resin bust of Iron Man features detailed sculpting and paint applications, and sits atop a detailed pedestal base. Limited to only 1,000 pieces, it comes packaged with a numbered certificate of authenticity in a full-color box. Designed by Joe Allard, sculpted by Joe Menna!",
+	image_url="https://cdn11.bigcommerce.com/s-2zs1uo/images/stencil/1280x1280/products/1587/12380/Marvel_IronMan_L3D_03__55619.1657658229.jpg?c=2"
+	)
