@@ -1,0 +1,66 @@
+{% extends 'base.html'%}
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+<main>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./static/assets/img/rebel.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h5>FROM A JEDI TO A REBEL</h5>
+                    <p>The past catches up to the padawan in the Ahsoka Tano Premium Format Figure. Follow the Force and
+                        add her to your collection.Pre-order today!</p>
+                    <div class="slider-btn">
+                        <a type="button" href="{{url_for('shop_page')}}" class="btn btn-info btn-lg btn-primary">Discover</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./static/assets/img/strange.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>BEND REALITY TO YOUR WILL</h5>
+                    <p>Calling all Critical Role fans! Get your Mighty Nein collection rolling with the Caleb Widogast
+                        Statue, up for pre-order now!</p>
+                    <div class="slider-btn">
+                        <a type="button" href="{{url_for('shop_page')}}" class="btn btn-info btn-lg btn-primary">Discover</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./static/assets/img/ironman.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>PAY A VISIT TO THE WORKSHOP</h5>
+                    <p>Now you can be part of the protocol with the Iron Man Mark IV with Gantry Quarter Scale
+                        Figure.Pre-order today!</p>
+                    <div class="slider-btn">
+                        <a type="button" href="{{url_for('shop_page')}}" class="btn btn-info btn-lg btn-primary">Discover</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+</main>
+{% endblock %}

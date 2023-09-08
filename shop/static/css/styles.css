@@ -1,0 +1,36 @@
+
+h1.heading{
+    font-weight: 700;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    }
+
+p.lead{
+    font-weight: 500;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+   }
+
+.carousel-item img{
+    height: 500px;
+    width:100px;
+    object-fit:scale-up;
+    position: relative;
+}
+
+.carousel-caption h5{
+    font-weight: 700;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+.carousel-caption p{
+    font-weight: 500;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.carousel-caption{
+    bottom:180px;
+    padding-left:100px;
+    padding-right:100px;
+}
+.page-heading{
+    font-weight: 700;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}

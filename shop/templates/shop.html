@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{%block title%}
+Shop
+{%endblock%}
+
+{%block content%}
+
+
+<div class="toys py-5 bg-body-tertiary">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            {% for item in items %}
+            {% include 'includes/items_modals.html'%}
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                         xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                         preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="black"></rect>
+                        <image width="100%" height="100%"
+                               href={{item.image_url}}></image>
+                    </svg>
+                    <div class="card-body">
+                        <p class="card-text">{{item.description}}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal"
+                                        data-bs-target="#Modal-purchase-{{item.id}}"><font
+                                        style="vertical-align: inherit;"><font style="vertical-align: inherit;">Buy
+                                    Now</font></font></button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal"
+                                        data-bs-target="#Modal-tocart-{{item.id}}"><font
+                                        style="vertical-align: inherit;"><font style="vertical-align: inherit;">Add
+                                    to
+                                    Cart</font></font></button>
+                            </div>
+                            <small class="text-body-secondary"><font style="vertical-align: inherit;"><font
+                                    style="vertical-align: inherit;">R {{item.price}}</font></font></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{%endblock%}

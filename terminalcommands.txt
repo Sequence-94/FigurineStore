@@ -1,0 +1,20 @@
+pthon
+from shop import app,db
+app.app_context().push()
+db.create_all()
+from shop.models import Item
+
+i1 = Item(
+	name="Deadpool",
+	price="500",
+	description="This incredibly detailed 18″ NECA Deadpool figure has over 30 points of articulation for great action poses. Accessories include katanas, sai, machine guns, pistol and knife accessories, all with working holsters and sheaths.",
+	image_url="https://images.unsplash.com/photo-1608889335941-32ac5f2041b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80"
+	)
+
+i3 = Item(
+	name="THANOS",
+	price="700",
+	description="Let the power-hungry villain bring chaos to playtimes with this Thanos Talking Action Figure! The mighty titan features multiple points of articulation and a light-up Infinity Gauntlet.",
+	image_url="https://images.unsplash.com/photo-1608889175250-c3b0c1667d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80"
+	)
+
