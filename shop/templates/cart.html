@@ -30,13 +30,13 @@ Cart
                                             <p class="fw-bold mb-0 me-5 pe-3">R {{item.price}}</p>
                                         </div>
                                     </div>
-                                </div>
-                                <div>
                                     <button type="button" class="btn btn-danger btn-block btn-sm "
                                             data-bs-toggle="modal"
                                             data-bs-target="#Modal-remove-{{item.id}}">Remove
                                     </button>
                                 </div>
+
+
                                 {%endfor%}
 
                                 <hr class="mb-4" style="height: 2px; background-color: #1266f1; opacity: 1;">
@@ -91,7 +91,8 @@ Cart
                                     <button type="button" class="btn btn-primary btn-block btn-lg">Buy now</button>
 
                                     <h5 class="fw-bold mb-5" style="position: absolute; bottom: 0;">
-                                        <a href="#!"><i class="fas fa-angle-left me-2"></i>Back to shopping</a>
+                                        <a href="{{url_for('shop_page')}}"><i class="fas fa-angle-left me-2"></i>Back to
+                                            shopping</a>
                                     </h5>
 
                                 </form>

@@ -11,6 +11,10 @@ from flask_login import login_user,logout_user,login_required,current_user
 def home():
     return render_template("home.html")
 
+@app.route("/about")
+def about():
+    return render_template('about.html')
+
 
 @app.route("/shop", methods=['GET', 'POST'])
 @login_required
