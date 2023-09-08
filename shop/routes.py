@@ -5,9 +5,6 @@ from shop.forms import RegisterForm,LoginForm,PurchaseForm, CartForm, RemoveCart
 from shop import db
 from flask_login import login_user,logout_user,login_required,current_user
 
-@app.route("/somwhere")
-def somewhere():
-    pass
 
 @app.route("/")
 @app.route("/home")
