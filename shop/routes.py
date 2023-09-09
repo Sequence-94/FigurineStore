@@ -5,11 +5,10 @@ from shop.forms import RegisterForm, LoginForm, PurchaseForm, CartForm, RemoveCa
 from shop import db
 from flask_login import login_user, logout_user, login_required, current_user
 import stripe
-import os
-import flask
+from os import *
 
-YOUR_DOMAIN = 'http://127.0.0.1:5000'
-stripe.api_key = "sk_test_51NoAqSGloACtem36BSZdAYPyEwfkeh6CwN1DSRQddp1RGQTZ8IbU5NM2lY3nj1oXnti21jeVfndBY0QXg8cVl2DI00Du37g3R9"
+import os
+stripe.api_key = os.environ.get('API_KEY')
 
 
 @app.route("/")
@@ -144,8 +143,8 @@ def create_checkout_session():
         checkout_session = stripe.checkout.Session.create(
             line_items=customer_items,
             mode='payment',
-            success_url='http://127.0.0.1:5000/success.html',
-            cancel_url='http://127.0.0.1:5000/cancel.html',
+            success_url='http://127.0.0.1:5000/success',
+            cancel_url='http://127.0.0.1:5000/cancel',
         )
     except Exception as e:
         return str(e)
