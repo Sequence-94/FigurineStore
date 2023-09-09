@@ -36,7 +36,6 @@ Cart
                                     </button>
                                 </div>
 
-
                                 {%endfor%}
 
                                 <hr class="mb-4" style="height: 2px; background-color: #1266f1; opacity: 1;">
@@ -88,7 +87,6 @@ Cart
                                     <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit <a
                                             href="#!">obcaecati sapiente</a>.</p>
 
-                                    <button type="button" class="btn btn-primary btn-block btn-lg">Continue to Checkout</button>
 
                                     <h5 class="fw-bold mb-5" style="position: absolute; bottom: 0;">
                                         <a href="{{url_for('shop_page')}}"><i class="fas fa-angle-left me-2"></i>Back to
@@ -96,6 +94,13 @@ Cart
                                     </h5>
 
                                 </form>
+                                <form action="/create-checkout-session" method="POST">
+                                    <button type="submit" name="products"
+                                            value="{{current_user_cart}}"
+                                            class="btn btn-primary btn-block btn-lg">Continue to Checkout
+                                    </button>
+                                </form>
+
 
                             </div>
                         </div>
