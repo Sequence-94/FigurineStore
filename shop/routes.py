@@ -8,7 +8,7 @@ import stripe
 from os import *
 
 import os
-stripe.api_key = os.environ.get('API_KEY')
+stripe.api_key = "sk_test_51NoAqSGloACtem36BSZdAYPyEwfkeh6CwN1DSRQddp1RGQTZ8IbU5NM2lY3nj1oXnti21jeVfndBY0QXg8cVl2DI00Du37g3R9"
 
 
 @app.route("/")

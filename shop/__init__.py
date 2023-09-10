@@ -10,7 +10,7 @@ import os
 app = Flask(__name__)
 # configure the SQLite database, relative to the app instance folder
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///shop.db"
-app.config['SECRET_KEY'] = os.environ.get('SECRET')
+app.config['SECRET_KEY'] = "d4d2ac62ad021343b05f57dd"
 # create the extension
 db = SQLAlchemy(app)
 Bootstrap5(app)
