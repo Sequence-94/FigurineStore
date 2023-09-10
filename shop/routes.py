@@ -143,8 +143,8 @@ def create_checkout_session():
         checkout_session = stripe.checkout.Session.create(
             line_items=customer_items,
             mode='payment',
-            success_url=render_template("success.html"),
-            cancel_url=render_template("cancel.html"),
+            success_url='http://127.0.0.1:5000/success',
+            cancel_url='http://127.0.0.1:5000/cancel',
         )
     except Exception as e:
         return str(e)
