@@ -6,7 +6,7 @@ Registeration Page
 {%endblock%}
 
 {%block content%}
-<body class="text-center">
+<body class="text-center" style="color:black;">
 <div class="container">
     <!--    protect from cross site request forgery-->
     {{form.hidden_tag()}}
@@ -42,7 +42,5 @@ Registeration Page
     <a class="btn btn-sm btn-secondary" href="{{url_for('login')}}">Log In</a>
 </div>
 </body>
-style{
-color:black;
-}
+
 {%endblock%}
